@@ -1,0 +1,32 @@
+.container{
+  height: 100vh;
+  background-color: black;
+}
+.center{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hover{
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+.box{
+  background-color: #363dc2;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 20%;
+  left : 10%;
+  transition: all 0.1s linear;
+}
+.text{
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  top: 40%;
+  left : 70%;
+  transition: all 0.1s linear;
+}
